@@ -27,7 +27,7 @@ mod.config = {
         -- Passives
         CollectibleType.COLLECTIBLE_20_20,
         CollectibleType.COLLECTIBLE_BRIMSTONE,
-        CollectibleType.COLLECTIBLE_CRICKETS_HEAD,
+        CollectibleType.COLLECTIBLE_MAXS_HEAD,
         CollectibleType.COLLECTIBLE_DR_FETUS,
         CollectibleType.COLLECTIBLE_EPIC_FETUS,
         CollectibleType.COLLECTIBLE_GODHEAD,
@@ -49,7 +49,7 @@ mod.config = {
         CollectibleType.COLLECTIBLE_LUMP_OF_COAL,
         CollectibleType.COLLECTIBLE_ABADDON,
         CollectibleType.COLLECTIBLE_BLACK_CANDLE,
-        CollectibleType.COLLECTIBLE_BLOOD_OF_THE_MARTYR,
+        CollectibleType.COLLECTIBLE_BLOOD_MARTYR,
         CollectibleType.COLLECTIBLE_BLUE_CAP,
         CollectibleType.COLLECTIBLE_CANCER,
         CollectibleType.COLLECTIBLE_CAPRICORN,
@@ -163,7 +163,9 @@ mod.config = {
         CollectibleType.COLLECTIBLE_SCHOOLBAG,
         CollectibleType.COLLECTIBLE_SINUS_INFECTION,
         CollectibleType.COLLECTIBLE_TECHNOLOGY_ZERO,
-        CollectibleType.COLLECTIBLE_TRISAGION
+        CollectibleType.COLLECTIBLE_TRISAGION,
+
+        CollectibleType.COLLETIBLE_DINF
     }
 }
 
