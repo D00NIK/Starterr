@@ -43,7 +43,6 @@ mod.config = {
         CollectibleType.COLLECTIBLE_CROWN_OF_LIGHT,
         CollectibleType.COLLECTIBLE_INCUBUS,
         CollectibleType.COLLECTIBLE_TECH_X,
-        CollectibleType.COLLECTIBLE_BROKEN_SHOVEL_1,
         CollectibleType.COLLECTIBLE_HAEMOLACRIA,
         CollectibleType.COLLECTIBLE_DOLLAR,
         CollectibleType.COLLECTIBLE_LUMP_OF_COAL,
@@ -53,7 +52,7 @@ mod.config = {
         CollectibleType.COLLECTIBLE_BLUE_CAP,
         CollectibleType.COLLECTIBLE_CANCER,
         CollectibleType.COLLECTIBLE_CAPRICORN,
-        CollectibleType.COLLECTIBLE_CAT_O_NINE_TAILS,
+        CollectibleType.COLLECTIBLE_CAT_NINE_TAILS,
         CollectibleType.COLLECTIBLE_CEREMONIAL_ROBES,
         CollectibleType.COLLECTIBLE_CHAMPION_BELT,
         CollectibleType.COLLECTIBLE_CHOCOLATE_MILK,
@@ -67,7 +66,6 @@ mod.config = {
         CollectibleType.COLLECTIBLE_DEAD_DOVE,
         CollectibleType.COLLECTIBLE_DEAD_ONION,
         CollectibleType.COLLECTIBLE_DEATHS_TOUCH,
-        CollectibleType.COLLECTIBLE_DIRTY_MIND,
         CollectibleType.COLLECTIBLE_EVES_MASCARA,
         CollectibleType.COLLECTIBLE_FATE,
         CollectibleType.COLLECTIBLE_GOAT_HEAD,
@@ -81,7 +79,7 @@ mod.config = {
         CollectibleType.COLLECTIBLE_MITRE,
         CollectibleType.COLLECTIBLE_MOMS_CONTACTS,
         CollectibleType.COLLECTIBLE_MOMS_KEY,
-        CollectibleType.COLLECTIBLE_MONEY_EQUALS_POWER,
+        CollectibleType.COLLECTIBLE_MONEY_IS_POWER,
         CollectibleType.COLLECTIBLE_MUTANT_SPIDER,
         CollectibleType.COLLECTIBLE_MYSTERIOUS_LIQUID,
         CollectibleType.COLLECTIBLE_PENTAGRAM,
@@ -94,7 +92,7 @@ mod.config = {
         CollectibleType.COLLECTIBLE_SCREW,
         CollectibleType.COLLECTIBLE_SKELETON_KEY,
         CollectibleType.COLLECTIBLE_SMB_SUPER_FAN,
-        CollectibleType.COLLECTIBLE_SPIRIT_OF_THE_NIGHT,
+        CollectibleType.COLLECTIBLE_SPIRIT_NIGHT,
         CollectibleType.COLLECTIBLE_SPOON_BENDER,
         CollectibleType.COLLECTIBLE_SQUEEZY,
         CollectibleType.COLLECTIBLE_STEVEN,
@@ -130,7 +128,7 @@ mod.config = {
         CollectibleType.COLLECTIBLE_HOLY_LIGHT,
         CollectibleType.COLLECTIBLE_HOST_HAT,
         CollectibleType.COLLECTIBLE_LUSTY_BLOOD,
-        CollectibleType.COLLECTIBLE_MAW_OF_THE_VOID,
+        CollectibleType.COLLECTIBLE_MAW_OF_VOID,
         CollectibleType.COLLECTIBLE_MORE_OPTIONS,
         CollectibleType.COLLECTIBLE_MR_DOLLY,
         CollectibleType.COLLECTIBLE_PURITY,
@@ -164,8 +162,7 @@ mod.config = {
         CollectibleType.COLLECTIBLE_SINUS_INFECTION,
         CollectibleType.COLLECTIBLE_TECHNOLOGY_ZERO,
         CollectibleType.COLLECTIBLE_TRISAGION,
-
-        CollectibleType.COLLETIBLE_DINF
+        CollectibleType.COLLECTIBLE_DINF
     }
 }
 
