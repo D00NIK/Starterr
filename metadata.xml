@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Starterr</name>
+    <directory>starterr</directory>
+    <id>3208060487</id>
+    <description>Makes the first treasure room's item at least 3 quality.</description>
+    <version>1.2</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Tweaks"/>
+</metadata>
