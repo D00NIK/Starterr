@@ -12,7 +12,7 @@ There are mods like that, but they do not work with AB+. That's because Quality 
 So how does it work? Easy, just listed every item with 3+ Quality in Repentance ranking. (Also, I know that most of these items aren't in Treasure Room's item pool, so I listed them all. Of course only those actually present in this pool will be rolled)
 
 ## Issues
-There is only one known, Accessing `Game():GetRoom():GetType()` sometimes throw `C stack overflow` (line 180). I do not know how to do it the other way. If you tried something, and it worked, or have another improvements, please open a pull request.
+There is only one known, Accessing `Game():GetRoom():GetType()` sometimes throw `C stack overflow`. I do not know how to do it the other way. If you tried something, and it worked, or have another improvements, please open a pull request.
 
 ## License
 This mod is under the [Unlicense License](LICENSE), but the game isn't.
