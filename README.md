@@ -15,4 +15,4 @@ So how does it work? Easy, just listed every item with 3+ Quality in Repentance 
 There is only one known, Accessing `Game():GetRoom():GetType()` sometimes throw `C stack overflow` (line 180). I do not know how to do it the other way. If you tried something, and it worked, or have another improvements, please open a pull request.
 
 ## License
-This mod is [MIT licensed](LICENSE), but the game isn't.
+This mod is under the [Unlicense License](LICENSE), but the game isn't.
