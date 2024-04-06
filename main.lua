@@ -23,6 +23,7 @@ mod.config = {
         CollectibleType.COLLECTIBLE_MAMA_MEGA,
         CollectibleType.COLLECTIBLE_MR_ME,
         CollectibleType.COLLECTIBLE_MYSTERY_GIFT,
+        CollectibleType.COLLECTIBLE_DINF,
 
         -- Passives
         CollectibleType.COLLECTIBLE_20_20,
@@ -162,7 +163,6 @@ mod.config = {
         CollectibleType.COLLECTIBLE_SINUS_INFECTION,
         CollectibleType.COLLECTIBLE_TECHNOLOGY_ZERO,
         CollectibleType.COLLECTIBLE_TRISAGION,
-        CollectibleType.COLLECTIBLE_DINF
     }
 }
 
@@ -176,8 +176,29 @@ local function has_value(tab, val)
 end
 
 function mod:rollFirstTreasure(itemPoolType, decrease, seed)
-    if Game():GetTreasureRoomVisitCount() ~= 0 or itemPoolType ~= ItemPoolType.POOL_TREASURE or Game():GetRoom():GetType() ~= RoomType.ROOM_TREASURE then
+    --[[
+    Isaac.ConsoleOutput(Game():GetRoom():GetType())
+    Isaac.ConsoleOutput("\n")
+    Isaac.ConsoleOutput(Game():GetLevel():GetStage())
+    Isaac.ConsoleOutput("\n")
+    Isaac.ConsoleOutput(itemPoolType)
+    Isaac.ConsoleOutput("\n")
+    Isaac.ConsoleOutput("---------------")
+    Isaac.ConsoleOutput("\n")
+    ]]--
+    if Game():GetRoom():GetType() ~= RoomType.ROOM_TREASURE then
         return
+    end
+    
+    -- if it is greedmode, only floor 1 count (as GetTreasureRoomVisitCount() is increased in white treasures)
+    if Game():IsGreedMode() then
+        if Game():GetLevel():GetStage() ~= LevelStage.STAGE1_GREED or itemPoolType ~= ItemPoolType.POOL_GREED_TREASURE then
+            return
+        end
+    else
+        if Game():GetTreasureRoomVisitCount() ~= 0 or itemPoolType ~= ItemPoolType.POOL_TREASURE then
+            return
+        end
     end
 
     local rng = RNG()

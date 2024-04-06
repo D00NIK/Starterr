@@ -3,8 +3,16 @@
     <name>Starterr</name>
     <directory>starterr</directory>
     <id>3208060487</id>
-    <description>Makes the first treasure room's item at least 3 quality.</description>
-    <version>1.2</version>
+    <description>Only for AB+.
+
+UPDATE - Now working with GREED Mode
+
+A mod to The Binding of Isaac, making that first Treasure Room contains an item of at least 3 Quality.
+
+There are mods like that, but they do not work with AB+. That's because Quality attribute was added in Repentance and (I think) all of these mods use them. This one works tho.
+
+Have an improvement? https://github.com/D00NIK/Starterr</description>
+    <version>1.3</version>
     <visibility>Public</visibility>
     <tag id="Lua"/>
     <tag id="Tweaks"/>
